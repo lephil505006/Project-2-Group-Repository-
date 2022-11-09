@@ -1,9 +1,13 @@
-li {
-    float: center;
-    display: inline;
+.navbar, ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-a {
-    display: flexbox;
-    padding: 8px;
+.navbar, li {
+    font-size: 50px;
+}
+
+.navbar, ul {
+    border-color: black;
 }
