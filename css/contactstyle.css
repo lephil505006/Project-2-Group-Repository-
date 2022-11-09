@@ -1,13 +1,22 @@
-.navbar, ul {
+.nav-list {
+    background: blue;
+    box-shadow: 0px 0px 10px;
+    margin: 0;
+    padding: 0px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 }
 
-.navbar, li {
+.nav-item {
+    list-style: none;
+    margin-right: 400px;
+    margin-left: 300px;
+}
+
+.nav-item a {
     font-size: 50px;
-}
-
-.navbar, ul {
-    border-color: black;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    
 }
