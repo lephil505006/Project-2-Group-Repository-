@@ -1,0 +1,9 @@
+li {
+    float: center;
+    display: inline;
+}
+
+a {
+    display: flexbox;
+    padding: 8px;
+}
