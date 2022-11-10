@@ -26,3 +26,19 @@
 .nav-item a:hover {
 	background-color: #000099;
 }
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: auto;
+  font-size: 26px;
+  line-height: 1.375em;/* 22px */
+  font-weight: bold;
+  text-align: center;
+}
