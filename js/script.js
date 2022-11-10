@@ -9,5 +9,13 @@ slideshow.insertAdjacentHTML("beforeend", `
     ${buttonsHTML.join("") }
     </div>
 `);
+    const bnuttons = slideshow.querySelectorAll(".slideshow_button");
 
+    buttons.forEach((button, i) => {
+        button.addEventListener("click", () => {
+            //unslect the buttons and item selected 
+            items.forEach(item => item.classList.remove("slideshow_item--selected"));
+            buttons.forEach(button => button.classList.remove("slideshow_button--slected"))
+        });
+    });
 });
