@@ -2,7 +2,7 @@
     background: blue;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: block;
     justify-content: center;
 	overflow: hidden;
 	list-style-type: none;
@@ -10,9 +10,9 @@
 
 .nav-item a {
 	display: block;
-    font-size: 1.875em; /* 30px */
+    font-size: 1.25em; /* 20px */
     text-decoration: none;
-	padding: 0.5em 2.1875em; /*8px 35px*/
+	padding: 0.25em 2.1875em; /*4px 35px*/
     color: black;
     text-align: center;
 }
@@ -46,6 +46,7 @@ h2 {
   font-size: 19px;
   line-height: 1.375em;/* 22px */
   text-align: center;
+  margin-bottom: 12px;
 }
 form {
   width: 100%;
@@ -76,4 +77,40 @@ input,select {
 }
 #submit:hover {
   background: #006600;
+}
+
+@media (min-width: 650px) {
+  .nav-list {
+    display: flex;
+	}
+  .nav-item a {
+	font-size: 1.75em; /* 28px */
+  }
+  
+  h2 {
+  margin-bottom: 20px;
+  }
+
+  form {
+    width: 65%;
+  }
+  .main {
+    flex-direction: row;
+	height: calc(100% - 50px);
+	}
+}
+@media (min-width: 1000px) {
+  .nav-item a {
+	font-size: 1.875em; /* 30px */
+  }
+  h2 {
+    margin-bottom: 13px;
+  }
+  form {
+    width: 60%;
+    }
+  .main {
+  	flex-direction: row;
+	height: calc(100% - 50px);
+	}
 }
