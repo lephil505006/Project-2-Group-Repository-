@@ -4,3 +4,10 @@ document.querySelectorAll(".slideshow").forEach(slideshow => {
         return `<span class="slideshow_button"></span>`;
 });
 
+slideshow.insertAdjacentHTML("beforeend", `
+    <div class="slideshow_nav">
+    ${buttonsHTML.join("") }
+    </div>
+`);
+
+});
