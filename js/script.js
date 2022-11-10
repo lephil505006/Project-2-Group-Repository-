@@ -16,6 +16,9 @@ slideshow.insertAdjacentHTML("beforeend", `
             //unslect the buttons and item selected 
             items.forEach(item => item.classList.remove("slideshow_item--selected"));
             buttons.forEach(button => button.classList.remove("slideshow_button--slected"))
+            
+            items[i].classList.add("slideshow_item--selectd");
+            button.classList.add("slideshow_button--selected"); 
         });
     });
 });
