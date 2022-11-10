@@ -8,22 +8,42 @@
   <link rel="stylesheet" media="screen" href="css/contactstyle.css" />
 </head>
 <body>
-  <navbar>
-    <ul class="nav-list">
+  <ul class="nav-list">
       <li class="nav-item"><a href="index.html">Home</a></li>
       <li class="nav-item"><a href="about.html">About Us</a></li>  
       <li class="nav-item"><a href="contact.html">Contact</a></li>
-    </ul>
-  </navbar>
-
-  <div class="about-us-text">
-    <ul class="about-us-list">
-      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>      
-    </ul>
+  </ul>
+  <ul class="bottom-list">
+      <li class="bottom-item"><a href="https://www.facebook.com/">F</a></li> <!--Placeholder for image-->
+      <li class="bottom-item"><a href="https://www.instagram.com/">I</a></li>  <!--Placeholder for image-->
+      <li class="bottom-item"><a href="https://github.com/">G</a></li> <!--Placeholder for image-->
+  </ul>
+  <div class="main">
+    <form method="get" action="#null" name="contactForm" autocomplete="on">
+      <div class="title">
+	  <h1>Thank you for your interest in ISUD.<h1>
+      <h2> To contact us please reach us via:</h2>
+    </div>
+    <div class="contact">
+      <label>First Name:</label>
+      <input type="text" name="fname" placeholder="First Name">
+	  <label>Last Name:</label>
+      <input type="text" name="lname" placeholder="Last Name">
+	  <label>Phone Number:</label>
+      <input type="tel" name="phone" placeholder="Phone Number">
+	  <label>Email:</label>
+      <input type="email" name="email" placeholder="Email" pattern="^.+@.+$" />
+	  <label>Address:</label>
+      <input type="text" name="address" placeholder="Address">
+	  <label>Perfered Contact:</label>
+      <select>
+        <option value="email" selected>-Email-</option>
+        <option value="phone">Phone</option>
+        <option value="mail">Mail</option>
+      </select>
+    </div>
+     <input type="submit" id="submit" value="Join the Movement">
+   </form>
   </div>
 
 </body>
