@@ -20,19 +20,3 @@
     color: black;
     text-align: center;
 }
-
-.about-us-text {
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    height: 300px;
-    width: 500px;
-    position: relative; 
-    left: 700px;
-    top: 450px;
-}
-
-.about-us-list, li {
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-    padding-top: 20px;
-}
