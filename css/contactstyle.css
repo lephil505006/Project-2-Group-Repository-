@@ -1,38 +1,130 @@
 .nav-list {
     background: blue;
-    box-shadow: 0px 0px 10px;
     margin: 0;
-    padding: 0px;
-    padding-top: 10px;
-    display: flex;
+    padding: 0;
+    display: block;
     justify-content: center;
+	overflow: hidden;
+	list-style-type: none;
 }
 
-.nav-item {
-    list-style: none;
-    margin-right: 300px;
-    margin-left: 300px;
+.bottom-list {
+    background: blue;
+	bottom: 0;
+	position: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+	overflow: hidden;
+	list-style-type: none;
+	width: 100%;
 }
 
-.nav-item a {
-    font-size: 50px;
+.nav-item a,.bottom-item a {
+	display: block;
+    font-size: 1.25em; /* 20px */
     text-decoration: none;
+	padding: 0.25em 2.1875em; /*4px 35px*/
     color: black;
     text-align: center;
 }
 
-.about-us-text {
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    height: 300px;
-    width: 500px;
-    position: relative; 
-    left: 700px;
-    top: 450px;
+.nav-item li,.bottom-item li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: blue;
+}
+.nav-item a:hover, .bottom-item a:hover {
+	background-color: #000099;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 0.8125em;/* 13px */
+  text-align: center;
+  margin-bottom: 6px;
+}
+h2 {
+  text-transform: uppercase;
+  margin: auto;
+  font-size: 19px;
+  line-height: 1.375em;/* 22px */
+  text-align: center;
+  margin-bottom: 12px;
+}
+form {
+  width: 100%;
+  padding: 23px;
+}
+label {
+  margin-bottom: 7px;
+  vertical-align: middle;
+}
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+input,select {
+  padding: 5px;
+  margin-bottom: 15px;
+}
+#submit {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 8px; 
+  font-size: 20px;
+  color: white; 
+  width: 100%;
+  background: #33cc33;
+}
+#submit:hover {
+  background: #006600;
 }
 
-.about-us-list, li {
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-    padding-top: 20px;
+@media (min-width: 650px) {
+  .nav-list  {
+    display: flex;
+	width: 100%;
+	}
+  .nav-item a,.bottom-item a {
+	font-size: 1.75em; /* 28px */
+  }
+  
+  h2 {
+  margin-bottom: 20px;
+  }
+
+  form {
+    width: 65%;
+  }
+  .main {
+    flex-direction: row;
+	height: calc(100% - 50px);
+	}
+}
+@media (min-width: 1000px) {
+  .nav-item a,.bottom-item a {
+	font-size: 1.875em; /* 30px */
+  }
+  h2 {
+    margin-bottom: 13px;
+  }
+  form {
+    width: 60%;
+    }
+  .main {
+  	flex-direction: row;
+	height: calc(100% - 50px);
+	}
 }
