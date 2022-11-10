@@ -43,3 +43,13 @@
     padding: 10px;
     padding-top: 20px;
 }
+
+.slideshow {
+    position: relative;
+}
+
+.slideshow_item {
+    height: 200px;
+    background: gray;
+    padding: 10px;
+}
