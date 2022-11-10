@@ -44,39 +44,3 @@
     padding-top: 20px;
 }
 
-.slideshow {
-    position: relative;
-}
-
-.slideshow_item {
-    height: 200px;
-    background: gray;
-    padding: 10px;
-}
-
-.slideshow_item--selected {
-    display: block;
-}
-
-.slideshow_nav {
-    width: 100%; 
-    padding: 25px 0;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-}
-
-.slideshow_button {
-    width: 10px;
-    height: 10px;
-    display: inline-block;
-    background: black;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer; 
-}
-
-.slideshow_button--selected {
-    background: gray;
-}
