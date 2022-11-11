@@ -75,8 +75,8 @@
     overflow: hidden; 
     height: 800px;
     width: 1000px;
-    margin-left: 360px;
-    margin-top: 20px;
+    margin-left: 430px;
+    margin-top: -450px;
 }
 
 @-webkit-keyframes slide_animation {
@@ -111,6 +111,7 @@
     width: 1200px;
     position: relative; 
     float: left;
+    transform: scale(.5);
 }
 
 
