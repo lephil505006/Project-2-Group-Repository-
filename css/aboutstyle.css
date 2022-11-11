@@ -1,43 +1,37 @@
-.nav-list {
-    background: blue;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-	overflow: hidden;
-	list-style-type: none;
-}
-
 .nav-item a {
-	display: block;
-    font-size: 1.875em; /* 30px */
+    display: block;
+    font-size: 1.875em;
+    /* 30px */
     text-decoration: none;
-	padding: 0.5em 2.1875em; /*8px 35px*/
+    padding: 0.5em 2.1875em;
+    /*8px 35px*/
     color: black;
     text-align: center;
 }
 
 .nav-item li {
-  float: left;
-  margin: 0;
-  padding: 0;
-  background: blue;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background: blue;
 }
+
 .nav-item a:hover {
-	background-color: #000099;
+    background-color: #000099;
 }
 
 .about-us-text {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     height: 300px;
     width: 500px;
-    position: relative; 
+    position: relative;
     left: 700px;
     top: 450px;
     position: relative;
 }
 
-.about-us-list, li {
+.about-us-list,
+li {
     font-size: 20px;
     text-align: center;
     padding: 10px;
