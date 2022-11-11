@@ -17,7 +17,7 @@
     text-align: center;
 }
 
-.nav-item li {
+.nav-item  {
   float: left;
   margin: 0;
   padding: 0;
@@ -44,3 +44,29 @@
     padding-top: 20px;
 }
 
+
+@media (min-width: 650px) {
+    .nav-list  {
+      display: flex;
+      width: 100%;
+      }
+    .nav-item a,.bottom-item a {
+      font-size: 1.75em; /* 28px */
+    }
+    
+  }
+  @media (min-width: 1000px) {
+    .nav-item a,.bottom-item a {
+      font-size: 1.875em; /* 30px */
+    }
+    h2 {
+      margin-bottom: 13px;
+    }
+    form {
+      width: 60%;
+      }
+    .main {
+        flex-direction: row;
+      height: calc(100% - 50px);
+      }
+  }
