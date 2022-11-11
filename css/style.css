@@ -70,6 +70,31 @@ li {
     padding-top: 20px;
 }
 
+.slider-frame {
+    overflow: hidden; 
+    height: 800px;
+    width: 1000px;
+    margin-left: 360px;
+    margin-top: 20px;
+}
+
+@-webkit-keyframes slide_animation {
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left:2400px;}
+    50% {left:2400px;}
+    60% {left:1200px;}
+    70% {left:1200px;}
+    80% {left:0px;}
+    90% {left:0px;}
+    100% {left:0px;}
+}
+
+
+
+/* HOME Page*/
 .content {
     display: flex;
     flex-direction: column;
