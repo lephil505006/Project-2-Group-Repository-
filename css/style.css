@@ -40,17 +40,19 @@
 .nav-item a:hover, .bottom-item a:hover {
 	background-color: #000099;
 }
+
+
+.nav-item a:hover,
+.bottom-item a:hover {
+    background-color: #000099;
+}
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 32px;
-}
-
-.nav-item a:hover,
-.bottom-item a:hover {
-    background-color: #000099;
 }
 .about-us-text {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -62,8 +64,7 @@
     position: relative;
 }
 
-.about-us-list,
-li {
+.about-us-list {
     font-size: 20px;
     text-align: center;
     padding: 10px;
