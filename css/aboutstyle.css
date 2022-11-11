@@ -27,6 +27,7 @@
     position: relative;
     left: 700px;
     top: 450px;
+    position: relative;
 }
 
 .about-us-list,
@@ -36,3 +37,4 @@ li {
     padding: 10px;
     padding-top: 20px;
 }
+
