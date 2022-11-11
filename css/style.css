@@ -9,7 +9,6 @@
 	overflow: hidden;
 	list-style-type: none;
 }
-
 .bottom-list {
     background: blue;
 	bottom: 0;
@@ -22,7 +21,6 @@
 	list-style-type: none;
 	width: 100%;
 }
-
 .nav-item a,.bottom-item a {
 	display: block;
     font-size: 1.25em; /* 20px */
@@ -31,7 +29,6 @@
     color: black;
     text-align: center;
 }
-
 .nav-item li,.bottom-item li {
   float: left;
   margin: 0;
@@ -41,13 +38,10 @@
 .nav-item a:hover, .bottom-item a:hover {
 	background-color: #000099;
 }
-
-
 .nav-item a:hover,
 .bottom-item a:hover {
     background-color: #000099;
 }
-
 .main {
   display: flex;
   flex-direction: column;
@@ -64,14 +58,12 @@
     top: 450px;
     position: relative;
 }
-
 .about-us-list {
     font-size: 20px;
     text-align: center;
     padding: 10px;
     padding-top: 20px;
 }
-
 .img-container {
     transform: scale(50%);
     display: inline-block;
@@ -79,8 +71,6 @@
     margin-top: -460px;
     box-shadow: rgba(72, 122, 180, .7) 0px 0px 10px 5px;
 }
-
-
 /* HOME Page*/
 .content {
     display: flex;
@@ -88,20 +78,17 @@
     align-items: center;
     height: 100%;
 }
-
 p {
     inline-size: 70%;
     overflow-wrap: break-word;
     font-size: 16px;
     line-height: 1.35em;
 }
-
 .globe {
     padding: 40px 0 40px;
     width: 30%;
     height: auto;
 }
-
 .nature {
     width: 70%;
     height: auto;
@@ -205,7 +192,6 @@ input,select {
         padding-bottom: 50px;
     }
 }
-
 @media (min-width: 1000px) {
 
     .nav-item a,
