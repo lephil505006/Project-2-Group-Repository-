@@ -51,12 +51,14 @@
 }
 .about-us-text {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    height: 300px;
-    width: 500px;
+    height: 275px;
+    width: 475px;
     position: relative;
-    left: 700px;
-    top: 450px;
-    position: relative;
+    left: 100px;
+    top: 900px;
+}
+.about-text {
+	padding-bottom: 15px;
 }
 .about-us-list {
     font-size: 20px;
@@ -65,7 +67,7 @@
     padding-top: 20px;
 }
 .img-container {
-    transform: scale(.5);
+    transform: scale(.3);
     display: inline-block;
     margin-right: -340px;
     margin-top: -460px;
@@ -191,6 +193,11 @@ input,select {
         border-radius: 10px;
         padding-bottom: 50px;
     }
+	.about-us-text {
+    position: relative;
+	left: 200px;
+    top: 900px;
+	}
 }
 @media (min-width: 1000px) {
 
@@ -229,6 +236,11 @@ input,select {
         border-radius: 10px;
         padding-bottom: 50px;
     }
+	.about-us-text {
+    position: relative;
+    left: 700px;
+    top: 350px;
+		}
 
     body {
         height: 100vh;
