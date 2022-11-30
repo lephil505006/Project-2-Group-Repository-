@@ -260,18 +260,6 @@ select {
         left: 9px;
     }
     
-    .globe_contact {
-        position: relative;
-        transform: scale(.15);
-        right: 90px;
-        bottom: 290px;
-    }
-    .main {
-        position: relative;
-        bottom: 4150px;
-        transform: scale(.9);
-    }
-
 }
 
 @media (min-width: 1000px) {
@@ -341,17 +329,6 @@ select {
         bottom: 1650px;
         left: 350px;
     }
-
-    .main {
-        position: relative;
-        bottom: 700px;
-    }
-    .globe_contact {
-        position: relative;
-        transform: scale(.2);
-        left: 290px;
-        bottom: 250px;
-}
 }
 
 @media (min-width: 1920px) {
@@ -372,9 +349,5 @@ select {
         position: relative;
         left: 700px;
         top: 300px;
-    }
-    .globe_contact {
-        position: relative;
-        left: 545px;
     }
 }
