@@ -210,9 +210,6 @@ select {
 }
 
 @media (min-width: 650px) {
-    body {
-     height: 1000vh;
-    }
     
     .nav-list {
         display: flex;
