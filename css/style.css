@@ -182,6 +182,10 @@ select {
 }
 
 @media (min-width: 650px) {
+    body {
+     height: 1000vh;
+    }
+    
     .nav-list {
         display: flex;
         width: 100%;
@@ -229,16 +233,45 @@ select {
     .about-us-text {
         position: relative;
         left: 90px;
-        top: 720px;
+        top: 650px;
     }
 
     .slide-images {
         transform: scale(.9);
         position: relative; 
-        bottom: 120px;
+        bottom: 190px;
         right: 90px;
         padding-bottom: 30px;
     }
+
+    .img-container_2 {
+        position: relative;
+        transform: scale(.5);
+        bottom: 320px;
+        left: 160px;
+        width: 540px;
+        box-shadow: rgba(72, 122, 180, 1) 0px 0px 10px 5px;
+    }
+
+    .img-container_3 {
+        position: relative; 
+        transform: scale(.1);
+        bottom: 1220px;
+        left: 9px;
+    }
+    
+    .globe_contact {
+        position: relative;
+        transform: scale(.15);
+        right: 90px;
+        bottom: 290px;
+    }
+    .main {
+        position: relative;
+        bottom: 4200px;
+        transform: scale(.9);
+    }
+
 }
 
 @media (min-width: 1000px) {
@@ -291,4 +324,32 @@ select {
     body {
         height: 100vh;
     }
+
+    .img-container {
+        position: relative;
+        left: 200px;
+    }
+
+    .img-container_2 {
+        position: relative;
+        left: 750px;
+        bottom: 546px;
+    }
+    
+    .img-container_3 {
+        position: relative;
+        bottom: 1650px;
+        left: 400px;
+    }
+
+    .main {
+        position: relative;
+        bottom: 700px;
+    }
+    .globe_contact {
+        position: relative;
+        transform: scale(.2);
+        left: 290px;
+        bottom: 250px;
+}
 }
