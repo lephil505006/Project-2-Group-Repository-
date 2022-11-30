@@ -193,11 +193,28 @@ input,select {
         border-radius: 10px;
         padding-bottom: 50px;
     }
+
 	.about-us-text {
     position: relative;
-	left: 200px;
-    top: 900px;
-	}
+	left: 90px;
+    top: 700px;
+    }
+
+    .society-p {
+        position: relative;
+        bottom: 30px;
+        width: 600px;
+        right: 10px;
+        text-align: center;
+    }
+	
+
+    .slide-images {
+        transform: scale(.8);
+        position: relative; 
+        bottom: 120px;
+        right: 70px;
+    }
 }
 @media (min-width: 1000px) {
 
