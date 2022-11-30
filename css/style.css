@@ -228,8 +228,16 @@ select {
 
     .about-us-text {
         position: relative;
-        left: 200px;
-        top: 900px;
+        left: 90px;
+        top: 720px;
+    }
+
+    .slide-images {
+        transform: scale(.9);
+        position: relative; 
+        bottom: 120px;
+        right: 90px;
+        padding-bottom: 30px;
     }
 }
 
