@@ -1,4 +1,4 @@
-/* Contanct Page*/
+/* contact Page*/
 .nav-list {
     background: blue;
     top: 0;
@@ -66,7 +66,7 @@
     height: 275px;
     width: 475px;
     position: relative;
-    left: 100px;
+    right: 500px;
     top: 900px;
 }
 
@@ -268,7 +268,7 @@ select {
     }
     .main {
         position: relative;
-        bottom: 4200px;
+        bottom: 4150px;
         transform: scale(.9);
     }
 
@@ -317,8 +317,8 @@ select {
 
     .about-us-text {
         position: relative;
-        left: 700px;
-        top: 350px;
+        left: 500px;
+        top: 300px;
     }
 
     body {
@@ -327,19 +327,19 @@ select {
 
     .img-container {
         position: relative;
-        left: 200px;
+        left: 50px;
     }
 
     .img-container_2 {
         position: relative;
-        left: 750px;
+        left: 530px;
         bottom: 546px;
     }
     
     .img-container_3 {
         position: relative;
         bottom: 1650px;
-        left: 400px;
+        left: 350px;
     }
 
     .main {
@@ -352,4 +352,29 @@ select {
         left: 290px;
         bottom: 250px;
 }
+}
+
+@media (min-width: 1920px) {
+    .img-container {
+        position: relative;
+        left: 300px;
+    }
+    .img-container_2 {
+        position: relative;
+        left: 765px;
+    }
+    .img-container_3 {
+        position: relative;
+        left: 350px;
+    }
+
+    .about-us-text {
+        position: relative;
+        left: 700px;
+        top: 300px;
+    }
+    .globe_contact {
+        position: relative;
+        left: 545px;
+    }
 }
