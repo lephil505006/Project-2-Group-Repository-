@@ -1,3 +1,7 @@
+/* font family */
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
 /* contact Page*/
 .nav-list {
     background: blue;
