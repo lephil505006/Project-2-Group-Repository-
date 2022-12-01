@@ -1,3 +1,7 @@
+/* font family */
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
 /* contact Page*/
 .nav-list {
     background: blue;
@@ -128,10 +132,10 @@ p {
 h1 {
     text-transform: uppercase;
     font-size: 20px;
-    line-height: 0.8125em;
-    /* 13px */
+    line-height: 1.25em;
+    /* 20px */
     text-align: center;
-    margin-bottom: 6px;
+    margin-bottom: 14px;
 }
 
 h2 {
@@ -176,15 +180,40 @@ select {
     width: 100%;
     background: #33cc33;
 }
+    .about-us-text {
+        position: relative;
+        left: 90px;
+        top: 650px;
+    }
+    .slide-images {
+        transform: scale(.9);
+        position: relative; 
+        bottom: 190px;
+        right: 90px;
+        padding-bottom: 30px;
+    }
+
+    .img-container_2 {
+        position: relative;
+        transform: scale(.5);
+        bottom: 320px;
+        left: 160px;
+        width: 540px;
+        box-shadow: rgba(72, 122, 180, 1) 0px 0px 10px 5px;
+    }
+
+    .img-container_3 {
+        position: relative; 
+        transform: scale(.1);
+        bottom: 1220px;
+        left: 9px;
+    }
 
 #submit:hover {
     background: #006600;
 }
 
 @media (min-width: 650px) {
-    body {
-     height: 1000vh;
-    }
     
     .nav-list {
         display: flex;
